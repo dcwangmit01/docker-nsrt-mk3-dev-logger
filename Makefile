@@ -4,7 +4,7 @@ SHELL := /usr/bin/env bash
 
 SOURCE := github.com/dcwangmit01/docker-nsrt-mk3-dev-logger
 PACKAGE := dcwangmit01/nsrt-mk3-dev-logger
-VERSION := 0.1.0
+VERSION := 0.3.0
 
 .PHONY: build
 build: format reqs  ## Build the docker image
